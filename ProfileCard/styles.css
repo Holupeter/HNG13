@@ -1,0 +1,133 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #8e44ad;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  color: #8e44ad;
+}
+
+header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #8e44ad;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #8e44ad;
+}
+
+/* Social Links with Icons */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-size: 2rem;
+  color: #8e44ad;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+/* Hover Effect on Social Links */
+nav ul li a:hover {
+  color: #3498db; /* Light Blue */
+  transform: translateY(-5px); /* Subtle lift effect */
+}
+
+/* Focused State for Links */
+nav ul li a:focus {
+  outline: 2px solid #f39c12; /* Soft Pink for focus */
+  outline-offset: 2px;
+}
+
+/* Hobbies and Dislikes */
+section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+section h3 {
+  font-size: 1.2rem;
+  color: #8e44ad;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .profile-card {
+    /*flex-direction: row;*/
+    /* align-items: flex-start; */
+    padding: 30px;
+  }
+
+  figure {
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  section {
+    text-align: left;
+  }
+}
