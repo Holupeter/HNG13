@@ -21,10 +21,15 @@ The application uses semantic HTML, CSS, and vanilla JavaScript to ensure access
 - **JavaScript**: Form validation, time display, and interactivity using vanilla JavaScript.
 
 ## Folder Structure
+
 ├── index.html # Profile Card Page
+
 ├── contact.html # Contact Us Page
+
 ├── about.html # About Me Page
+
 ├── styles.css # Shared Styles for all pages
+
 ├── script.js # Shared JavaScript (for validation and interactivity)
 
 ## Getting Started
@@ -34,7 +39,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Holupeter/HNG13.git
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/Holupeter/HNG13.git)
 
 2. **Navigate to the project directory**:
    
@@ -44,7 +49,7 @@ To run the project locally, follow these steps:
 
 You can open index.html directly in your browser or host it using any local server (e.g., Live Server in Visual Studio Code).
 
-**Preview the website**:
+## Preview the website:
 
 Go to the **Profile Card page**: index.html
 
@@ -52,7 +57,8 @@ Go to the **Contact Us page**: contact.html
 
 Go to the **About Me page**: about.html
 
-**Features in Detail**
+### Features in Detail
+
 **Profile Card Page** (index.html):
 
 Displays user information, including name, bio, hobbies, and dislikes.
@@ -81,7 +87,8 @@ Links to the **Contact Us** and **About Me** pages.
 
 **Extra thoughts**: Any additional reflections or thoughts you’d like to share.
 
-**Styling**
+### Styling
+
 **Responsive Design**:
 
 The layout adapts for mobile, tablet, and desktop devices using media queries. The form and content are centered and look visually appealing on all devices.
@@ -92,11 +99,11 @@ The layout adapts for mobile, tablet, and desktop devices using media queries. T
 
 **Links** have a focus outline for keyboard navigation.
 
-**License**
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Acknowledgments**
+### Acknowledgments
 
 **Font Awesome**: For the social media icons.
 
