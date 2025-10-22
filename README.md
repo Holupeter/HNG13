@@ -21,7 +21,7 @@ The application uses semantic HTML, CSS, and vanilla JavaScript to ensure access
 - **JavaScript**: Form validation, time display, and interactivity using vanilla JavaScript.
 
 ## Folder Structure
-index.html # Profile Card Page
+├── index.html # Profile Card Page
 ├── contact.html # Contact Us Page
 ├── about.html # About Me Page
 ├── styles.css # Shared Styles for all pages
