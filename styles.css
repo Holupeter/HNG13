@@ -16,7 +16,7 @@ body {
   color: #333;
 }
 
-/* Profile Card */
+/* Profile Card Styling */
 .profile-card {
   display: flex;
   flex-direction: column;
@@ -27,23 +27,26 @@ body {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #8e44ad;
 }
 
-/* Header */
 header {
   text-align: center;
+ margin-top: 50px;
 }
 
 header h2 {
   font-size: 1.8rem;
   color: #8e44ad;
+  margin-top: 10px;
+  /* padding: 20px; */
 }
 
 header p {
   font-size: 1rem;
   color: #555;
+  line-height: 1.5;
 }
 
 img {
@@ -55,6 +58,7 @@ img {
 
 figcaption {
   font-size: 0.9rem;
+  text-align: center;
   color: #8e44ad;
 }
 
@@ -92,7 +96,7 @@ nav ul li a:focus {
 /* Hobbies and Dislikes */
 section {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 section h3 {
@@ -110,11 +114,120 @@ section ul li {
   color: #555;
 }
 
+/* Navigation Buttons Styling */
+.nav-buttons {
+  margin-top: 5px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8e44ad;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.nav-button:hover {
+  background-color: #7d3c8c;
+}
+
+/* Contact Us Form Styling */
+form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #8e44ad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #7d3c8c;
+}
+
+/* Success and Error Messages */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.success {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  display: none; /* Keep hidden initially */
+}
+
+/* About Me Page Styling */
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+  font-size: 2rem;
+  color: #8e44ad;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #8e44ad;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+section p {
+  color: #555;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
 /* Responsive Design */
 @media screen and (min-width: 768px) {
   .profile-card {
-    /*flex-direction: row;*/
-    /* align-items: flex-start; */
+    /* flex-direction: row; */
     padding: 30px;
   }
 
