@@ -32,6 +32,7 @@ The application uses semantic HTML, CSS, and vanilla JavaScript to ensure access
 
 ├── script.js # Shared JavaScript (for validation and interactivity)
 
+
 ## Getting Started
 
 To run the project locally, follow these steps:
@@ -39,9 +40,9 @@ To run the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git]([url](https://github.com/Holupeter/HNG13.git))
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/Holupeter/HNG13.git)
 
-2. **Navigate to the project directory**:
+2. **Navigate to the project directory**: 
 
    ```bash
    cd your-repo-name
@@ -102,7 +103,7 @@ The layout adapts for mobile, tablet, and desktop devices using media queries. T
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([url](https://github.com/Holupeter/HNG13/blob/main/LICENSE)) file for details.
 
 ### Acknowledgments
 
