@@ -103,7 +103,7 @@ The layout adapts for mobile, tablet, and desktop devices using media queries. T
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE]([url](https://github.com/Holupeter/HNG13/blob/f50441f7d8f8bfd11faede4a4c42c1ec01b64ade/LICENSE)) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgments
 
